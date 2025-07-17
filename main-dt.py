@@ -4,6 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 df = pd.read_csv("train.csv")
 
 df = df.dropna()
